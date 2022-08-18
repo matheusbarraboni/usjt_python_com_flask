@@ -1,0 +1,5 @@
+secret_key = ""
+admin_secret = {
+    "username": "",
+    "password": "",
+}
