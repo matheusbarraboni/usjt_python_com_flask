@@ -19,5 +19,4 @@ def create_app():
     def health():
         return 'Up and running', 200
 
-
     return app

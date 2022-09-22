@@ -4,10 +4,10 @@ class Uc(db.Model):
     __tablename__ = "ucs"
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    nome = db.Column(db.String(150))
-    tipo = db.Column(db.String(50))
-    inicio = db.Column(db.Date)
-    fim = db.Column(db.Date)
+    name = db.Column(db.String(150))
+    type = db.Column(db.String(50))
+    start = db.Column(db.Date)
+    end = db.Column(db.Date)
 
     def __repr__(self):
-        return f"<Uc(nome={self.nome}, tipo={self.tipo}, inicio={self.inicio}, fim={self.fim})>"
+        return f"<Uc(nome={self.name}, tipo={self.type}, inicio={self.start}, fim={self.end})>"
